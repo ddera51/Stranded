@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="EastController">
+   <children>
+      <AnchorPane prefHeight="603.0" prefWidth="638.0">
+         <children>
+            <Button fx:id="btnOar" layoutX="275.0" layoutY="144.0" mnemonicParsing="false" onAction="#getOar" text="Take the oar" />
+            <Button fx:id="btnToMtns" layoutX="285.0" layoutY="361.0" mnemonicParsing="false" onAction="#pathPlane" text="Continue" />
+            <Label fx:id="oar1" layoutX="370.0" layoutY="500.0" prefHeight="17.0" prefWidth="263.0" />
+            <Label fx:id="oar2" layoutX="380.0" layoutY="547.0" prefHeight="17.0" prefWidth="263.0" />
+         </children>
+      </AnchorPane>
+      <TextArea prefHeight="83.0" prefWidth="638.0" text="As you enter the cabin, you can tell it has been abandoned for some time.Looking around, it &#10;becomes apparent that it was once owned by a fisherman, due to the poles and nets strewn &#10;across the rafters. You notice an oar within the rafters that looks much newer than everything else.&#10;What do  you do?" />
+   </children>
+</AnchorPane>

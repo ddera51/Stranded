@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BoatController">
+   <children>
+      <AnchorPane prefHeight="603.0" prefWidth="638.0">
+         <children>
+            <Button fx:id="btnTheEnd" layoutX="225.0" layoutY="243.0" mnemonicParsing="false" onAction="#TheEnd" prefHeight="117.0" prefWidth="189.0" text="The End">
+               <font>
+                  <Font size="36.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <TextArea prefHeight="87.0" prefWidth="638.0" text="You beach the boat to ensure that it does not float away, and you place the life jacket in the hull. You&#10;begin to head to the town, and as you walk around, you cannot see anyone. The buildings are all run &#10;down, and there are no signs of life. The only thing that seems to be new is paint strewn across the &#10;siding of all the buildings, reading “help us”" />
+   </children>
+</AnchorPane>

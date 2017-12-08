@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="488.0" prefWidth="546.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="EastController">
+   <children>
+      <AnchorPane prefHeight="603.0" prefWidth="638.0">
+         <children>
+            <Button fx:id="btnToWreck" layoutX="253.0" layoutY="288.0" mnemonicParsing="false" onAction="#toPlane" text="Go toward the plane" />
+         </children>
+      </AnchorPane>
+      <TextArea prefHeight="60.0" prefWidth="638.0" text="Heading toward the smoke, the woods begin to clear and the large mountains you first saw are &#10;looming to the North. In the clearing is the burning wreckage of a plane!" />
+   </children>
+</AnchorPane>

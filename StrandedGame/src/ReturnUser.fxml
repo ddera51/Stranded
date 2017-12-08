@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller1">
+   <children>
+      <AnchorPane prefHeight="603.0" prefWidth="638.0">
+         <children>
+            <Button fx:id="btnStart" layoutX="261.0" layoutY="241.0" mnemonicParsing="false" onAction="#initialize" text="Return" />
+            <Button fx:id="btnNeeded" layoutX="465.0" layoutY="343.0" mnemonicParsing="false" onAction="#BackPackStatus" text="Check your back pack!" />
+            <Label fx:id="text" layoutX="469.0" layoutY="382.0" prefHeight="17.0" prefWidth="152.0" />
+            <Label fx:id="Emptybag" layoutX="472.0" layoutY="417.0" prefHeight="17.0" prefWidth="152.0" />
+         </children>
+      </AnchorPane>
+      <TextArea prefHeight="83.0" prefWidth="638.0" text="You don't have all the required materials for a safe travel across the lake. You must go back and &#10;retrieve the required items! &#10;&#10;--Hint: Check your bag!" />
+   </children>
+</AnchorPane>

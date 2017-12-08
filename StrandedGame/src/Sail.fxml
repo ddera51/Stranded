@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BoatController">
+   <children>
+      <AnchorPane prefHeight="603.0" prefWidth="638.0">
+         <children>
+            <Button fx:id="btnSail" layoutX="300.0" layoutY="288.0" mnemonicParsing="false" onAction="#SetSail" text="Sail" />
+            <TextArea layoutY="22.0" prefHeight="65.0" prefWidth="638.0" text="You have the oar, tarp and life jacket, so you are ready to set sail! You attach the tarp to the mast to &#10;act as a sail, and you have the oar to control the boat across the water. Do you set sail?" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

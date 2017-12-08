@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="EastController">
+   <children>
+      <AnchorPane prefHeight="603.0" prefWidth="638.0">
+         <children>
+            <Button fx:id="btnInside" layoutX="286.0" layoutY="252.0" mnemonicParsing="false" onAction="#inside" text="Enter" />
+         </children>
+      </AnchorPane>
+      <TextArea prefHeight="113.0" prefWidth="638.0" text="You walk up to the dilapidated church, it croaks and grans in the wind, seemingly about to topple.&#10;There are holes in the siding and roof, and vines arch op the walls as if they were reaching  for the&#10;heavens. &#10;&#10;As you push the large, ornate doors aside, you hear the hinges protest from within. &#10;However, you find you can create an opening comfortable enough to fit through. " />
+   </children>
+</AnchorPane>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BoatController">
+   <children>
+      <AnchorPane prefHeight="603.0" prefWidth="638.0">
+         <children>
+            <Button fx:id="btnTown" layoutX="260.0" layoutY="288.0" mnemonicParsing="false" onAction="#ToTown" text="Sail towards town" />
+         </children>
+      </AnchorPane>
+      <TextArea prefHeight="48.0" prefWidth="638.0" text="You push off from the shore, feeling the breeze and the spray of the water against the bow. The &#10;water is calm,making your journey easy. It takes some time to reach the other side." />
+   </children>
+</AnchorPane>

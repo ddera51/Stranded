@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="EastController">
+   <children>
+      <AnchorPane prefHeight="603.0" prefWidth="638.0">
+         <children>
+            <Button fx:id="btneCabin" layoutX="277.0" layoutY="288.0" mnemonicParsing="false" onAction="#enterCabin" text="Enter Cabin" />
+            <TextArea prefHeight="121.0" prefWidth="638.0" text="As you turn to leave, you are stricken with a feeling of dread, that there is something important &#10;within the church, but you are unsure.&#10;&#10;As you push through the growth and trees, you trudge on to the south, hoping to find anything of &#10;value. You can see the smoke rising to the West, and you wonder how much further you will have&#10; to travel. Suddenly, a cabin comes into view. " />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
